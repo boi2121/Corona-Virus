@@ -1,0 +1,56 @@
+	* {
+margin: 10px;
+font-family: 'Roboto', sans-serif;
+	}
+	
+	
+	 body { 
+	
+	  background-color: grey;
+	  }
+	
+	 p {
+	 color: black;
+	 }
+	 
+	 .navbar {
+	position: sticky;
+top: 0;
+display: flex;
+justify-content : space-around;
+align-items: center;
+margin: 10px;
+padding: 10px;
+background-color:red;
+z-index: 1;
+	 }
+	 
+	 .navbar a {
+		 color: white;
+		 text-decoration: none;
+	 }
+	 /* end navigation bar */
+	 
+	 @-webkit-keyframes rotate {
+		 from {-webkit-transform: rotate(0deg);}
+		 to {-webkit-transform:rotate(360deg);}
+	 }
+	 
+	 .footer{
+		 display: flex;
+		 justify-content:flex-end;
+		 bottom: 0;
+	 }
+	 
+	 .footer img {
+		 height: 60px;
+		 width: auto;
+		 border: none;
+		 margin: 0;
+	 }
+	 
+	 .footer img:hover {
+		 animation:rotate 0.7s ease-in 2 alternate both;
+		 filter:brightness(110%);
+		 filter:drop-shadow(5px 5px 5px #B8FEE1);
+		 transition: all 1s ease-in-out;
